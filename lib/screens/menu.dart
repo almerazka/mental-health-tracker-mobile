@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 // Impor drawer widget
 import 'package:mental_health_tracker/widgets/left_drawer.dart';
-import 'package:mental_health_tracker/widgets/mood_cart.dart';
+import 'package:mental_health_tracker/widgets/mood_card.dart';
 
 class MyHomePage extends StatelessWidget {
   MyHomePage({super.key});
@@ -99,7 +99,6 @@ class MyHomePage extends StatelessWidget {
     );
   }
 }
-
 
 class InfoCard extends StatelessWidget {
   // Kartu informasi yang menampilkan title dan content.
